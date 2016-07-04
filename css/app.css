@@ -1,0 +1,297 @@
+body {
+    background-color: #F2F1F0;
+    max-width: 100%;
+}
+
+.top-bar-left li:hover {
+    background-color: rgba(230, 51, 51, 0.1);
+}
+
+.top-bar-left a {
+    color: grey;
+}
+
+.top-bar-left a:hover {
+    color: red;
+}
+
+.buttons {
+    border-radius: 100px/50px;
+    background-color: #EC407A;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    -moz-border-radius: 100px/ 50px;
+    -webkit-border-radius: 100px/ 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.buttons li:hover {
+    background-color: transparent;
+}
+
+.menubar {
+    height: 0px;
+}
+
+.button {
+    background-color: #EC407A;
+}
+
+.rowtwo {
+    background-image: url(../img/me.jpeg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    margin-left: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.innerdiv {
+    height: 90px;
+}
+
+.h2 {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.top-bar-right {
+    letter-spacing: 0.2em;
+}
+
+#button {
+    border-radius: 0.2em;
+    margin-left: 12%;
+    width: 100%;
+}
+
+.overlay {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black w/opacity */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+}
+
+.button {
+    background-color: #EC407A;
+}
+
+.p {
+    color: white;
+}
+
+.listrow {
+    background-color: white;
+    padding-left: 30px;
+}
+
+.padding {
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+
+/*slider*/
+
+img {
+    width: 100%;
+}
+
+.slide-window {
+    /*border:1px solid black;*/
+    width: 100%;
+    height: auto;
+    /* background-color:red;*/
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    display: block;
+    text-indent: -10000px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.info-bar {
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#rightNav,
+#leftNav {
+    top: calc(50% - 26px);
+    position: absolute;
+    width: 20px;
+    height: 53px;
+    background-image: url(http://www.nhm.ac.uk/etc/designs/nhmwww/img/arrows/slider-arrow.png);
+    background-repeat: no-repeat;
+    z-index: 999;
+    /*What does this do?*/
+}
+
+#rightNav {
+    right: 0;
+    -webkit-transform: scaleX(-1);
+}
+
+#leftNav {
+    left: 0;
+    -webkit-transform: scaleX(-1);
+}
+
+.slide-holder {
+    width: 300%;
+    background-color: blue;
+    margin-left: 0%;
+    transition: margin-left 1s;
+    /*  this is the bit that needs to change to slide the slide*/
+}
+
+.slide {
+    width: 33.33%;
+    height: auto;
+    float: left;
+}
+
+.div {
+    background-color: #EC407A;
+}
+
+.b {
+    background-color: #c37139;
+}
+
+.b2 {
+    background-color: #E91E63;
+}
+
+.back {
+    background-image: url(../img/1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: cover;
+}
+
+.rows {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    margin-right: 0px;
+}
+
+.footer {
+    background-color: #0098DB;
+    width: 100%;
+}
+
+.ul a {
+    padding: 3px;
+    margin: 5px;
+    display: inline-block;
+    color: black;
+}
+
+.th {
+    height: 50px;
+}
+
+.way {
+    height: 250px;
+}
+
+.container {
+    background-color: white;
+}
+
+.b {
+    background-color: #0098DB;
+}
+
+.message {
+    color: #EC407A;
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.office {
+    background-color: #EC407A;
+}
+
+#now {
+    margin-top: 2em;
+    background-color: white;
+}
+
+#now h2 {
+    margin-top: 0.2em;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 2em;
+}
+
+#now p {
+    text-align: center;
+}
+
+#imagenet img {
+    height: 100%;
+    max-width: 1280px;
+}
+
+#imagenet2 {
+    padding: 10px;
+}
+
+#net1 {
+    background-color: firebrick;
+    color: white;
+    margin-top: 2%;
+}
+
+#net2 {
+    background-color: purple;
+    color: white;
+    margin-top: 2%;
+}
+
+#but1 {
+    background-color: firebrick;
+    margin-top: 4%;
+    width: 100%;
+}
+
+#but2 {
+    background-color: purple;
+    margin-top: 4%;
+    width: 100%;
+}
+
+.butone {
+    background-color: white;
+    margin-top: 4%;
+}
+
+.liguid {
+    color: #EDEDED;
+    margin-top: -3%;
+}
+
+.powered {
+    color: #EB008B;
+}
+
+.u {
+    background-color: #5EACCC;
+}
